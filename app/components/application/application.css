@@ -33,3 +33,7 @@ footer {
 .starrating.glyphicon-star {
     margin-right: 4px;
 }
+
+.padRowTop {
+    margin-top: 5em;
+}

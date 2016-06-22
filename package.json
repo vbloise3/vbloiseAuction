@@ -4,7 +4,7 @@
   "homepage": "https://www.manning.com/books/angular-2-development-with-typescript",
   "private": true,
   "scripts": {
-    "start": "live-server"
+    "start": "live-server --port=8081"
   },
   "engines": {
     "npm": ">=2.14.x"
