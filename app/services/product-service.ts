@@ -1,6 +1,3 @@
-/**
- * Created by vincebloise on 6/12/16.
- */
 export class Product {
     constructor(
         public id: number,

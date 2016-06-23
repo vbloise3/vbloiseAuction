@@ -1,6 +1,3 @@
-/**
- * Created by vincebloise on 6/12/16.
- */
 import {Component} from '@angular/core';
 import { Routes, ROUTER_DIRECTIVES} from '@angular/router';
 import HomeComponent from '../home/home';

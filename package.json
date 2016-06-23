@@ -1,6 +1,6 @@
 {
-  "name": "auction_ch2",
-  "description": "Sample Online Auction from Chapter 2 from the book Angular 2 Development with TypeScript",
+  "name": "auction_ch3",
+  "description": "Sample Online Auction from Chapter 3 from the book Angular 2 Development with TypeScript",
   "homepage": "https://www.manning.com/books/angular-2-development-with-typescript",
   "private": true,
   "scripts": {
@@ -23,6 +23,7 @@
     "rxjs": "5.0.0-beta.6",
     "systemjs": "^0.19.27",
     "zone.js": "^0.6.12",
+
     "bootstrap": "^3.3.6",
     "jquery": "^2.2.2"
   },

@@ -1,8 +1,12 @@
 /**
  * Created by vincebloise on 6/12/16.
  */
-// Import Angular 2 and application modules.
 import {bootstrap} from '@angular/platform-browser-dynamic';
-import ApplicationComponent from 'app/components/application/application';
+import {LocationStrategy, HashLocationStrategy} from '@angular/common';
+import {ROUTER_PROVIDERS} from '@angular/router';
+import ApplicationComponent from './components/application/application';
 
-bootstrap(ApplicationComponent);
+bootstrap(ApplicationComponent, [
+    ROUTER_PROVIDERS,
+    {provide: LocationStrategy, useClass: HashLocationStrategy}
+]);

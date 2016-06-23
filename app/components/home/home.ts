@@ -1,6 +1,3 @@
-/**
- * Created by vincebloise on 6/22/16.
- */
 import {Component} from '@angular/core';
 import {Product, ProductService} from '../../services/product-service';
 import CarouselComponent from '../carousel/carousel';
